@@ -1,0 +1,21 @@
+#titulo{
+    background-color: orange;
+}
+
+#rodape{
+    background-color: orange;
+}
+
+#conteudo{
+    border-radius: 10px;
+    border-style: inset;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cabecalhoKeyspaces{
+    background-color: silver;
+    border-radius: 10px;
+}

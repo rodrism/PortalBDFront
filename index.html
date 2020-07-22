@@ -1,0 +1,51 @@
+<html>
+        <head>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+                <link rel="stylesheet" href="index.css">
+                <script type="text/javascript" src="index.js"></script>
+                <title>Portal Cassandra</title>
+        </head>
+        <body onload="carregaClusterInfo();">
+                <div class="container-fluid">
+
+                        <div class="row" id="titulo">
+                                <div class="col-md-4">
+                                        <img src="/Users/Rodrigo/Documents/Projetos/PortalCassandra/images/logo.jpg" width="15%">
+                                </div>
+                                <div class="col-md-8">
+                                        <h3>Portal Cassandra</h3> 
+                                </div>
+                        </div>
+                        <div class="row" id="clusterInfo">
+                                <div class="col-md-12" id="cluster"></div>
+                        </div>
+                        <div class="row" id="cabecalhoKeyspaces">
+                                <div class="col-md-4" id="cbKeyspaces">Keyspaces</div>
+                                <div class="col-md-4" id="cbKeyspaceStrategy">Replication Strategy</div>
+                                <div class="col-md-4" id=cbRplFactor>Replication Factor</div>
+                        </div>
+                        <div class="row" id="conteudo">
+                                <!-- informacoes do cluster -->
+                                <div class="col-md-4" id="keyspaces"></div>
+                                <div class="col-md-4" id="keyspaceStrategy"></div>
+                                <div class="col-md-4" id="rplFactor"></div>
+                        </div>
+
+                        <div class="row" id="rodape">
+                                <div class="col-md-4">
+                                        Quero por uma imagem aqui
+                                </div>
+                                <div class="col-md-8">
+                                        <p> Meus contatos </p>
+                                        Zap: (11) 98626-4109<br>
+                                        email: santiagodemenezes@gmail.com<br>
+                                </div>                
+                        </div>
+                </div>
+
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        </body>
+
+</html>
